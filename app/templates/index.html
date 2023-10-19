@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/favicon.ico">
+  <link rel="stylesheet" href="static/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <title>Artistry.ai</title>
+</head>
+
+<body>
+  <div class="container d-flex align-items-center justify-content-center vh-100">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Welcome to Artistry.ai<span class="art-icon">&#127912;</span></h1>
+        <p>Artistry.ai is an innovative sketch-making app based on computer vision and image processing technologies
+          that leverages advanced algorithms to transform your photos into stunning hand-drawn sketches. Whether you're a professional artist
+          or just exploring your creative side, Artistry.ai provides a seamless and intuitive platform to bring your artistic vision to life. <br />
+          Join us on a journey through the world of digital artistry with Artistry.ai!</p>
+        <a href="/sketch" class="get-started">Get Started >>></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-5">
+    <p>&copy; <span id="currentYear"></span> Artistry.ai developed by Sairaj Joshi. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Set the current year dynamically
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>

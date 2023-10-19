@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    /* background-color: white; */
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* box-sizing: border-box; */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    /* background-color: whitesmoke; */
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form .btn-outline-success{
+    display: block;
+    margin: 0 auto; /* Center the button */
+    background-color: white;
+    color: navy;
+    border-color: navy;
+    background-color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form .btn-outline-success:hover {
+    border-color: navy;
+    background-color: navy;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: maroon;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p a {
+    color: navy;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: navy;
+    text-decoration: underline;
+}
+
+
+/* footer */
+footer {
+    background-color: whitesmoke;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

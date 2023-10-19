@@ -1,0 +1,7 @@
+config.py
+env/
+instance/
+__pycache__/
+app/__pycache__/
+app/static/sketches/
+app/static/uploads/
